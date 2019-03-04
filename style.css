@@ -2,6 +2,125 @@
   box-sizing: border-box;
 }
 
+/********************/
+.image{
+  height:40em; background-size:cover; width:auto;
+  background-image:url('./image.jpg');
+  background-position:50% 50%;
+  opacity: 0.8;
+}
+.serveimg{
+  height:30em; background-size:cover;
+  background-image:url('./service.jpg');
+  background-position:10% 50%;
+  opacity: 0.6;
+}
+.aboutimg{
+  height:30em; background-size:cover;
+  background-image:url('./about.jpg');
+  background-position:10% 50%;
+  opacity: 0.7;
+}
+.contactimg{
+  height:25em; background-size:cover;
+  background-image:url('./contact.jpg');
+  background-position:50% 50%;
+  opacity: 0.8;
+}
+
+.menu{
+  font-size: 16px;
+}
+#navbar{
+  float: right;
+}
+
+#header a:hover{
+  color: black;
+  background-color: antiquewhite;
+}
+#header a{
+  font-family: Arial, sans-serif;
+  color: azure;
+  text-decoration: none;
+  display: inline-block;
+  padding: 0.5em;
+  font-weight: 500;
+  margin: 0.2em;
+}
+.col-md-4{
+  font-family: Arial, sans-serif;
+  text-align: center;
+  width: 150px;
+  margin: 15px;
+  padding: 25px;
+  background-color: antiquewhite;
+  opacity: 0.9;
+}
+
+#contact .form-control {
+  display: block;
+  width: 400px;
+  height: 55px;
+  padding: 6px 25px;
+  font-size: 14px;
+  line-height: 1.42857143;
+  color: #999999;
+  background: #f1f1f1;
+  background-image: none;
+  border: none;
+  border-radius: 0px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 6px 12px;
+  margin-bottom: 0;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.42857143;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  -ms-touch-action: manipulation;
+  touch-action: manipulation;
+  cursor: pointer;}
+
+.form-group{
+    width: 30%;
+    margin: 0 auto;
+    margin-bottom: 24px;
+}
+
+#about{
+  font-family: Arial, sans-serif;
+  font-size: 18px;
+}
+
+.title{
+  font-family: DejaVu Sans Mono, monospace;
+  font-size: 65px;
+  width: 50px;
+  padding-left: 10px;
+  color: #fcf2e5;
+  font-weight: bold;
+  text-shadow: 1px 1px 2px black, 0 0 25px #443b2b, 0 0 5px #0c0b08;
+  opacity: 0.8;
+}
+
+.alert{
+  text-align: center;
+  padding:10px;
+  background:#79c879;
+  color:#fff;
+  margin-bottom:10px;
+  display:none;
+}
+
+/********************/
+
+
+/*
 body{
   background:#92bde7;
   color:#485e74;
@@ -52,6 +171,7 @@ ul{
 }
 
 /* FORM STYLES */
+/*
 .contact form{
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -99,6 +219,7 @@ ul{
 }
 
 /* LARGE SCREENS */
+/*
 @media(min-width:700px){
   .wrapper{
     display: grid;
