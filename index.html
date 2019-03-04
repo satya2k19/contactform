@@ -10,6 +10,56 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <div style="text-align:center">
+        <!-- <h1>
+          Welcome to {{ title }}!
+          Welcome
+        </h1> -->
+        <div class="image">
+            <nav class="navbar navbar-default navbar-fixed-top">
+          <header id="header">
+            <div id="navbar" class="navbar-collapse collapse">
+              <a href="">HOME</a>
+              <a href="#services">SERVICES</a>
+              <a href="#about">ABOUT US</a>
+              <a href="#contact">CONTACT</a>
+              <input type="text" placeholder="Search">
+            </div>
+          </header>
+          </nav>
+          <div class="title">a2z Solutions...</div>
+          </div>
+          </div>
+
+          <div id="services">
+              <h1 style="text-align: cneter; font-family: Arial, sans-serif;text-align: center">
+              OUR SERVICES
+            </h1>
+            <div class="serveimg">
+            <div class="container" style="padding: 10px;">
+              <div class="row">
+                <div class = "col-md-4"><h2>Web Design</h2><p>Sed ut perspiciatis unde omnis iste error sit voluptatem accusantium doloremque lau dantium, rem aperiam eaque ipsa ab illo inventore veritatis
+                  </p></div>
+                <div class = "col-md-4">Blog/Forums</div>
+                <div class = "col-md-4">CSS/HTML</div>
+              </div>
+            </div>
+            </div>
+            </div>
+            
+            <div id="about" style="text-align: center">
+                <h1 style="text-align: cneter; font-family: Arial, sans-serif;text-align: center">
+                   ABOUT US
+                  </h1>
+                  <div class="aboutimg">
+                    <p class="abt" style="padding: 40px;">Nike might seem like a company that's too big to inspire smaller businesses. You might even wonder if Nike even still has an "About Us" page. As a matter of fact, it does, and it hasn't forgotten the company's roots.
+                        Nike began on the campus of the University of Oregon by the hand of the college's track coach, Bill Bowerman. And even though he no longer works at the company, one of his beloved quotes still brands the bottom of Nike's "About Us" page below: "If you have a body, you are an athlete."
+                        This bold sentence, referenced by the asterisked "Athlete" in the words right above it, sheds important light on Nike's audience. The brand may be big today, but Nike is all about the rising stars -- who Nike depends on to, according to the rest of its "About Us" page, "expand human potential."
+                        The takeaway for marketers? Know your audience, and make it obvious to that audience the instant they read about you on your website.</p>
+                  </div>
+              </div>
+
+
   <div class="container">
     <!-- <h1 class="brand"><span>Acme</span> Web Design</h1> -->
     <div class="wrapper">
@@ -21,36 +71,43 @@
           <li><i class="fa fa-envelope"></i> test@acme.test</li>
         </ul> -->
       </div>
-      <div class="contact">
-        <h3>Email Us</h3>
-        <div class="alert">Your message has been sent</div>
+      <div id="contact" style="text-align: center">
+          <h1 style="text-align: cneter; font-family: Arial, sans-serif;text-align: center">
+             CONTACT US
+            </h1>
+            <div class="contactimg">
+                <div class="alert">Your message has been sent</div>
+        <div class="form-group">
         <form id="contactForm">
           <p>
             <label>Name</label>
-            <input type="text" name="name" id="name" required>
+            <input class="form-control" type="text" name="name" id="name" required>
           </p>
           <p>
             <label>Company</label>
-            <input type="text" name="company" id="company">
+            <input class="form-control" type="text" name="company" id="company">
           </p>
           <p>
             <label>Email Address</label>
-            <input type="email" name="email" id="email" required>
+            <input class="form-control" type="text" name="email" id="email" required>
           </p>
           <p>
             <label>Phone Number</label>
-            <input type="text" name="phone" id="phone">
+            <input type="text" class="form-control" name="phone" id="phone">
           </p>
           <p class="full">
             <label>Message</label>
-            <textarea name="message" rows="5" id="message"></textarea>
+            <textarea class="form-control" name="message"  rows="10" id="message"></textarea>
           </p>
           <p class="full">
-            <button type="submit">Submit</button>
+            <button type="submit" class="btn btn-primary">Submit</button>
           </p>
         </form>
       </div>
+
+      </div>
     </div>
+  </div>
   </div>
 
   <script src="https://www.gstatic.com/firebasejs/5.8.5/firebase.js"></script>
